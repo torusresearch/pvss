@@ -1,11 +1,7 @@
 package common
 
 import (
-	"crypto/ecdsa"
 	"math/big"
-
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
 )
 
 func BigIntToPoint(x, y *big.Int) Point {
@@ -18,10 +14,4 @@ func HexToBigInt(s string) *big.Int {
 		panic("invalid hex in source file: " + s)
 	}
 	return r
-}
-
-//converts common point to ETH address format borrowint ethcrypto functions
-func PointToEthAddress(point Point) (*common.Address, error) {
-	addr := crypto.PubkeyToAddress(ecdsa.PublicKey{X: &point.X, Y: &point.Y})
-	return &addr, nil
 }
