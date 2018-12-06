@@ -1,5 +1,4 @@
-# pvss
-Publicly Verifiable Secret Sharing, and more..
+# Publicly Verifiable Secret Sharing, and more..
 
 ```
 go test ./pvss/*.go
