@@ -1,0 +1,37 @@
+# github.com/btcsuite/btcd v0.0.0-20181130015935-7d2daa5bfef2
+github.com/btcsuite/btcd/btcec
+# github.com/davecgh/go-spew v1.1.1
+github.com/davecgh/go-spew/spew
+# github.com/go-kit/kit v0.6.0
+github.com/go-kit/kit/log
+github.com/go-kit/kit/log/level
+github.com/go-kit/kit/log/term
+# github.com/go-logfmt/logfmt v0.4.0
+github.com/go-logfmt/logfmt
+# github.com/go-stack/stack v1.8.0
+github.com/go-stack/stack
+# github.com/gogo/protobuf v1.1.1
+github.com/gogo/protobuf/gogoproto
+github.com/gogo/protobuf/proto
+github.com/gogo/protobuf/protoc-gen-gogo/descriptor
+# github.com/golang/protobuf v1.1.0
+github.com/golang/protobuf/proto
+# github.com/jinzhu/copier v0.0.0-20180308034124-7e38e58719c3
+github.com/jinzhu/copier
+# github.com/kr/logfmt v0.0.0-20140226030751-b84e30acd515
+github.com/kr/logfmt
+# github.com/pkg/errors v0.8.0
+github.com/pkg/errors
+# github.com/pmezard/go-difflib v1.0.0
+github.com/pmezard/go-difflib/difflib
+# github.com/stretchr/testify v1.2.2
+github.com/stretchr/testify/assert
+# github.com/tendermint/tendermint v0.27.0
+github.com/tendermint/tendermint/libs/common
+github.com/tendermint/tendermint/libs/log
+# github.com/xlab-si/emmy v0.0.0-20181126075652-2a3c9dd29847
+github.com/xlab-si/emmy/crypto/common
+github.com/xlab-si/emmy/crypto/qr
+github.com/xlab-si/emmy/crypto/schnorr
+# golang.org/x/crypto v0.0.0-20170930174604-9419663f5a44
+golang.org/x/crypto/sha3
