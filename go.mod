@@ -17,6 +17,5 @@ require (
 	github.com/stretchr/testify v1.2.2
 	github.com/tendermint/tendermint v0.27.0
 	github.com/xlab-si/emmy v0.0.0-20181126075652-2a3c9dd29847
-	golang.org/x/crypto v0.0.0-20190426145343-a29dc8fdc734
-	golang.org/x/sync v0.0.0-20190423024810-112230192c58 // indirect
+	golang.org/x/crypto v0.1.0
 )
